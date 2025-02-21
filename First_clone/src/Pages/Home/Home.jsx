@@ -5,12 +5,14 @@ import Banner from "../../Components/Banner/Banner";
 import RowList from "../../Components/Rows/RowList/RowList";
 
 
+
+
 function Home() {
   return (
     <div>
       <Header />
-      <Banner/>
-      <RowList/>
+      <Banner />
+      <RowList />
      <Footer />
      </div>
   );
