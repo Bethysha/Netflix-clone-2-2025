@@ -1,6 +1,6 @@
 .banner {
-    margin-top: 1vh;
-    height: 80vh;
+    margin-top: -10vh;
+    height: 96vh;
     margin-bottom: -80px;
     color: white;
     object-fit: contain;
@@ -24,7 +24,7 @@
     max-width: 360px;
     height: 80px;
 }
-.banner_button {
+/* .banner_button {
     cursor: pointer;
     color: #fff;
     outline: none;
@@ -32,21 +32,55 @@
     font-size: 1.2rem;
     font-weight: 700;
     border-radius: 0.2vw;
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
     margin-right: 2rem;
     background-color: rgba(51, 51, 51, 0.5);
+} */
+ .banner_button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding: 1rem 3rem;
+  margin-right: 2rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s;
 }
 .play{
     color: #000;
     background-color: #fff;
+    margin-top: 16px;
+}
+.my_list {
+  background-color: rgb(61, 57, 57);
+  color: white;
 }
 .banner_button:hover {
     color: #000;
     background-color: #c6c6c6;
-    transition: a110.2s;
+    transition: 0.2s;
 
 }
 .banner_adeBottom {
     height: 40vh;
     background-image: linear-gradient(180 deg, transparent, reg(37, 37, 37, 0.91),#111);
+}
+.banner_fadeBotton {
+  height: 60vh;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgb(37, 37, 37, 0.91),
+    #111
+  );
 }
